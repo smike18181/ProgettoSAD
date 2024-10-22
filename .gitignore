@@ -1,0 +1,39 @@
+# Ignora i file di log
+*.log
+
+# Ignora le cartelle di output
+output/
+bin/
+build/
+dist/
+
+# Ignora i file temporanei
+*.tmp
+*.temp
+*.swp
+*.bak
+*~
+
+# Ignora le dipendenze installate
+node_modules/
+venv/
+env/
+__pycache__/
+
+# Ignora i file di configurazione dell'IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignora file specifici di sistema
+.DS_Store
+Thumbs.db
+
+# Ignora file di test
+*.spec.js
+*.test.js
+coverage/
+
+#ignora file di jupiter
+.ipynb_checkpoints/
